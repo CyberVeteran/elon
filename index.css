@@ -1,0 +1,66 @@
+body {
+    margin: auto;
+}
+
+h3 {
+    font-size: larger;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-list article {
+    border: 1px solid green;
+    margin: 20px;
+    padding: 20px;
+}
+
+.project-list article img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.project-list article h3 {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.midlebuttons {
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-border-bottom {
+    border-bottom: 2px solid rgb(34, 82, 246);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bg-image {
+    background-image: url("http://res2.weblium.site/res/5c2f5c9571895c0028176a00/5d0d0055d177f900245180e7_optimized_1920");
+    background-size: contain;
+}
+
+.mx-auto {
+    margin: auto;
+}
